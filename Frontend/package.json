@@ -1,0 +1,30 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": ".",
+  "dependencies": {
+    "axios": "^0.17.0",
+    "better-react-spinkit": "^2.0.2",
+    "jsonwebtoken": "^8.1.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-dropzone": "^4.2.1",
+    "react-fontawesome": "^1.6.1",
+    "react-modal": "^3.1.0",
+    "react-redux": "^5.0.6",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.0.17",
+    "react-scroll": "^1.6.4",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0"
+  },
+  "proxy": "https://pelycan-backend.herokuapp.com/",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

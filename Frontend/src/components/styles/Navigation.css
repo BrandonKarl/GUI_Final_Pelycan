@@ -1,0 +1,83 @@
+/* 
+ Name: Brandon Karl/ Serey Morm, brandon_karl@student.uml.edu/serey_morm@student.uml.edu
+ Computer Science Department, UMass Lowell
+ Comp.4610, GUI Programming I
+ File: /usr/cs/2018/smorm/public_html/
+ Created: 20-nov-2017
+ Last updated by HL: 7-Dec-2017, 15:34
+*/
+
+.navigationContainer {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  background-color: #01d8a2;
+  height: calc(10vh);
+}
+
+.navigationContent {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  max-width: 1200px;
+  margin: auto;
+  height: calc(10vh);
+  align-items: center;
+}
+
+.navigationNotLoggedIn {
+  display: flex;
+  width: 25%;
+  justify-content: space-around;
+  min-width: 150px;
+  max-width: 220px;
+}
+
+.navigationLoggedIn {
+  display: flex;
+  justify-content: space-around;
+  width: 25%;
+  text-decoration: none;
+  min-width: 150px;
+  color: white;
+  max-width: 225px;
+}
+
+.navigationUser {
+  display: flex;
+  justify-content: center;
+  color: white;
+  text-decoration: none;
+}
+
+.navigationLogo {
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+}
+
+.linkStyles {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+}
+
+.logoutButton {
+  cursor: pointer
+}
+
+.navigationPlaceholder {
+  top: 0px;
+  height: calc(10vh);
+}
+
+@media (max-width: 800px) {
+  .navigationContent {
+    width: 95%;
+    max-width: none;
+  }
+
+  .navigationLoggedIn {
+    width: 50%;
+  }
+}

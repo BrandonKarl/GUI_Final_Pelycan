@@ -1,0 +1,60 @@
+/* 
+ Name: Brandon Karl/ Serey Morm, brandon_karl@student.uml.edu/serey_morm@student.uml.edu
+ Computer Science Department, UMass Lowell
+ Comp.4610, GUI Programming I
+ File: /usr/cs/2018/smorm/public_html/
+ Created: 20-nov-2017
+ Last updated by HL: 7-Dec-2017, 15:34
+*/
+
+.createPostContainer {
+  width: 100%;
+}
+
+.createPostForm {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.createPostForm textarea {
+  padding: 5px;
+  width: 48%;
+  font-size: 18px;
+  outline: none;
+  resize: none;
+  overflow: visible;
+  height: 200px;
+  border-radius: 5px;
+  border-color: rgb(220,220,220);
+}
+
+.dropzoneStyle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px;
+  border-color: rgb(220,220,220);
+  width: 48%;
+  font-size: 80px;
+  color: #EE748C;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.dropzoneActive {
+  background-color: #EE748C;
+  color: white;
+}
+
+.previewCrop {
+  object-fit: cover;
+  width: 100px;
+  height: 100px;
+}
+
+.postLoading {
+  display: flex;
+  justify-content: center;
+  padding: 5vh;
+}

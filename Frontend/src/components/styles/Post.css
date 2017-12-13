@@ -1,0 +1,102 @@
+/* 
+ Name: Brandon Karl/ Serey Morm, brandon_karl@student.uml.edu/serey_morm@student.uml.edu
+ Computer Science Department, UMass Lowell
+ Comp.4610, GUI Programming I
+ File: /usr/cs/2018/smorm/public_html/
+ Created: 20-nov-2017
+ Last updated by HL: 7-Dec-2017, 15:34
+*/
+
+.postContainer {
+  width: 80%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.postContent {
+  text-align: center;
+}
+
+.postContent h2 {
+  text-align: left;
+}
+
+.postContainer hr {
+  border: none;
+  border-bottom: solid 1px #ddd;
+  width: 80%;
+}
+
+.postImageContainer {
+  text-align: center;
+  width: 100%;
+}
+
+.postImageContent {
+  display: flex;
+  justify-content: space-around;
+}
+
+.postImageContent img{
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+}
+
+.postComments { 
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.postComments li {
+  width: 80%;
+  border-bottom: solid 1px #ddd;
+  padding: 20px;
+}
+.postComments hr {
+  width: 100%;
+}
+
+.addCommentField {
+  text-align: center;
+}
+
+.addCommentField input {
+  width: 50%;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.addCommentField button{
+  display: block;
+  width: 200px;
+  margin: auto;
+  margin-top: 10px;
+  padding: 10px 15px;
+  font-size: 14px;
+  background-color: #E07B8D;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.modalStyle {
+  display: flex;
+  justify-content: center;
+  outline: none;
+  margin-top: 2em;
+  width: 50%;
+  margin: auto;
+}
+@media (max-width: 800px) {
+  .postImageContent {
+    display: block;
+  }
+
+  .postContent h2 {
+    font-size: 24px;
+  }
+}

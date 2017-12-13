@@ -1,0 +1,41 @@
+/* 
+ Name: Brandon Karl/ Serey Morm, brandon_karl@student.uml.edu/serey_morm@student.uml.edu
+ Computer Science Department, UMass Lowell
+ Comp.4610, GUI Programming I
+ File: /usr/cs/2018/smorm/public_html/
+ Created: 20-nov-2017
+ Last updated by HL: 7-Dec-2017, 15:34
+*/
+
+.welcomeMessage h1 {
+  display: inline;
+  font-size: 40px;
+  color: #444;
+}
+
+.welcomeMessage h1:nth-child(2) {
+  color: #fe6b8b;
+}
+
+.createPostButton {
+  margin-top: 10px;
+  padding: 10px 15px;
+  font-size: 18px;
+  background-color: #01d8a2;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  outline: none;
+}
+
+@media (max-width: 800px) {
+  .welcomeMessage h1 {
+    font-size: 30px;
+  }
+
+  .createPostButton {
+    padding: 7px 12px;
+    font-size: 14px;
+  }
+}

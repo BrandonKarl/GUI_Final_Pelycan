@@ -1,0 +1,85 @@
+/* 
+ Name: Brandon Karl/ Serey Morm, brandon_karl@student.uml.edu/serey_morm@student.uml.edu
+ Computer Science Department, UMass Lowell
+ Comp.4610, GUI Programming I
+ File: /usr/cs/2018/smorm/public_html/
+ Created: 20-nov-2017
+ Last updated by HL: 7-Dec-2017, 15:34
+*/
+
+.loginContainer {
+  width: 80%;
+  max-width: 1200px;
+  margin: auto;
+  height: calc(85vh);
+}
+
+.loginContent {
+  display: block;
+  text-align: center;
+  margin: auto;
+  margin-top: calc(20vh);
+  width: 25%;
+}
+
+.loginContent label {
+  display: block;
+  text-align: left;
+  color: rgb(100,100,100);
+}
+
+.loginContent input {
+  width: 100%;
+  font-size: 20px;
+  padding: 4px;
+  border: solid 1px lightblue;
+  border-bottom: solid 2px lightblue;
+  outline: none;
+  border-radius: 5px;
+  background-color: rgb(250, 250, 250);
+}
+
+.loginField {
+  margin-top: 20px;
+}
+
+.loginContent button {
+  margin-top: 10px;
+  width: 105%;
+  max-width: 310px;
+  min-width: 90px;
+  font-size: 18px;
+  background-color: lightblue;
+  border: none;
+  color: white;
+  padding: 5px 4px;
+  cursor: pointer;
+  outline: none;
+}
+
+.errorTab {
+  background-color: rgb(237, 135, 52);
+  color: white;
+  border-radius: 5px;
+  padding: 5px 2px;
+  animation: dropin 0.5s forwards;
+}
+
+.errorTabHolder {
+  background-color: transparent;
+  padding: 12px 2px;
+}
+
+@keyframes dropin {
+  0% { transform: translateY(-50px); opacity: 0}
+  100% { transform: translateY(0px); opacity: 1}
+}
+
+@keyframes shake {
+  0% { transform: translateX(-2px);}
+  25% { transform: translateX(2px);}
+  50% { transform: translateX(-2px);}
+  75% { transform: translateX(2px);}
+  100% { transform: translateX(0px);}
+
+}

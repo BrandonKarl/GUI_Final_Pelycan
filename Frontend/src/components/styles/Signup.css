@@ -1,0 +1,92 @@
+/* 
+ Name: Brandon Karl/ Serey Morm, brandon_karl@student.uml.edu/serey_morm@student.uml.edu
+ Computer Science Department, UMass Lowell
+ Comp.4610, GUI Programming I
+ File: /usr/cs/2018/smorm/public_html/
+ Created: 20-nov-2017
+ Last updated by HL: 7-Dec-2017, 15:34
+*/
+
+.signupContainer {
+  width: 80%;
+  max-width: 1200px;
+  margin: auto;
+  height: calc(85vh);
+  text-align: center;
+}
+
+.signupContent {
+  display: flex;
+  justify-content: center;
+}
+
+.signupEmail {
+  margin-top: calc(20vh);
+}
+
+.signupEmail input {
+  font-size: 20px;
+  padding: 4px;
+  border: none;
+  border-bottom: solid 2px lightblue;
+  outline: none;
+  width: 60%;
+}
+
+.signupInfo {
+  margin: auto;  
+  margin-top: calc(30vh);
+  text-align: left;
+}
+
+.signupInfo input {
+  font-size: 20px;
+  padding: 4px;
+  border: solid 1px lightblue;
+  border-bottom: solid 2px lightblue;
+  outline: none;
+  border-radius: 5px;
+  background-color: rgb(250, 250, 250);
+}
+
+.signupInfo input:focus {
+  border-color: lightgreen;
+}
+
+.signupInfo button {
+  margin-top: 20px;
+  width: 92%;
+  font-size: 20px;
+  background-color: lightblue;
+  border: none;
+  color: white;
+  padding: 8px 0px;
+  cursor: pointer;
+}
+
+.signupInfo label {
+  display: block;
+  text-align: left;
+  color: rgb(100,100,100);
+}
+
+.signupNameFields {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+
+}
+
+.signupNameFields input {
+  width: 80%;
+}
+
+.passwordFields {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.passwordFields input {
+  width: 80%;
+}
